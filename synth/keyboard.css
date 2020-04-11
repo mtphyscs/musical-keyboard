@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600&display=swap');
+
+#container {
+   position: absolute;
+    height:200px;
+    border:5px solid black;
+    top:calc(50% - 100px);
+    left: calc(50% - 350px);
+    overflow: hidden;
+}
+
+.whitenote{
+    height:100%;
+    width:50px;
+    background: white;
+    float:left;
+    border-right: 1px solid black;
+    position: relative;
+}
+
+.blacknote {
+    position:absolute;
+    height:65%;
+    width:55%;
+    z-index:1;
+    background:#777;
+    left:71%;
+}
+
+body{
+ background-color: rgb(133, 60, 201);
+}
+
+h1{
+    font-family: 'Baloo Paaji 2', cursive; 
+    font-size: xx-large;
+
+}
